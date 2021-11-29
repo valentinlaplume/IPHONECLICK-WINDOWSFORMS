@@ -1,0 +1,17 @@
+C:\Users\valentin\source\repos\BlueCase\Negocio\bin\Debug\net5.0\Negocio.deps.json
+C:\Users\valentin\source\repos\BlueCase\Negocio\bin\Debug\net5.0\Negocio.dll
+C:\Users\valentin\source\repos\BlueCase\Negocio\bin\Debug\net5.0\ref\Negocio.dll
+C:\Users\valentin\source\repos\BlueCase\Negocio\bin\Debug\net5.0\Negocio.pdb
+C:\Users\valentin\source\repos\BlueCase\Negocio\bin\Debug\net5.0\Datos.dll
+C:\Users\valentin\source\repos\BlueCase\Negocio\bin\Debug\net5.0\Entidades.dll
+C:\Users\valentin\source\repos\BlueCase\Negocio\bin\Debug\net5.0\Datos.pdb
+C:\Users\valentin\source\repos\BlueCase\Negocio\bin\Debug\net5.0\Entidades.pdb
+C:\Users\valentin\source\repos\BlueCase\Negocio\obj\Debug\net5.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\valentin\source\repos\BlueCase\Negocio\obj\Debug\net5.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valentin\source\repos\BlueCase\Negocio\obj\Debug\net5.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\valentin\source\repos\BlueCase\Negocio\obj\Debug\net5.0\Negocio.AssemblyInfo.cs
+C:\Users\valentin\source\repos\BlueCase\Negocio\obj\Debug\net5.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\valentin\source\repos\BlueCase\Negocio\obj\Debug\net5.0\Negocio.csproj.CopyComplete
+C:\Users\valentin\source\repos\BlueCase\Negocio\obj\Debug\net5.0\Negocio.dll
+C:\Users\valentin\source\repos\BlueCase\Negocio\obj\Debug\net5.0\ref\Negocio.dll
+C:\Users\valentin\source\repos\BlueCase\Negocio\obj\Debug\net5.0\Negocio.pdb
