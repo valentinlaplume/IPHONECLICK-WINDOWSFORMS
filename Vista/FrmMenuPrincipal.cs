@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Threading;
+using Entidades;
 
 namespace Vista
 {
@@ -20,98 +21,17 @@ namespace Vista
             //PersonalizarDiseño();
         }
 
-        private void pb_CerrarVentana_Click(object sender, EventArgs e)
+        public void AsignarTamañoFormSinEsconderBarraTarea()
         {
-            this.Close();
+            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+            this.Location = Screen.PrimaryScreen.WorkingArea.Location;
         }
-
-        //private void PersonalizarDiseño()
-        //{
-        //    pnl_SubMenu.Visible = false;
-        //}
-
-        //private void HideSubMenu()
-        //{
-        //    if (pnl_SubMenu.Visible)
-        //        pnl_SubMenu.Visible = false;
-        //}
-
-        //private void ShowSubMenu(Panel subMenu)
-        //{
-        //    if (!pnl_SubMenu.Visible)
-        //    {
-        //        HideSubMenu();
-        //        subMenu.Visible = true;
-        //    }
-        //    else
-        //    {
-        //        subMenu.Visible = false;
-        //    }
-        //}
-
-        //private void btn_Productos_Click(object sender, EventArgs e)
-        //{
-        //    ShowSubMenu(pnl_SubMenu);
-        //}
-
-        #region Configuracion colores botones menu lateral
-
-        private void btn_MenuClientes_MouseMove(object sender, MouseEventArgs e)
-        {
-            pb_Clientes.BackColor = Color.FromArgb(139, 183, 240);
-        }
-
-        private void btn_MenuClientes_MouseLeave(object sender, EventArgs e)
-        {
-            pb_Clientes.BackColor = Color.FromArgb(36, 97, 142);
-        }
-
-        private void btn_MenuProductos_MouseMove(object sender, MouseEventArgs e)
-        {
-            pb_Productos.BackColor = Color.FromArgb(139, 183, 240);
-        }
-
-        private void btn_MenuProductos_MouseLeave(object sender, EventArgs e)
-        {
-            pb_Productos.BackColor = Color.FromArgb(36, 97, 142);
-        }
-
-        private void btn_MenuVender_MouseMove(object sender, MouseEventArgs e)
-        {
-            pb_Vender.BackColor = Color.FromArgb(139, 183, 240);
-        }
-
-        private void btn_MenuVender_MouseLeave(object sender, EventArgs e)
-        {
-            pb_Vender.BackColor = Color.FromArgb(36, 97, 142);
-        }
-
-        private void btn_MenuEnvios_MouseMove(object sender, MouseEventArgs e)
-        {
-            pb_Envios.BackColor = Color.FromArgb(139, 183, 240);
-        }
-
-        private void btn_MenuEnvios_MouseLeave(object sender, EventArgs e)
-        {
-            pb_Envios.BackColor = Color.FromArgb(36, 97, 142);
-        }
-
-        private void btn_MenuGanancias_MouseMove(object sender, MouseEventArgs e)
-        {
-            pb_Ganancias.BackColor = Color.FromArgb(139, 183, 240);
-        }
-
-        private void btn_MenuGanancias_MouseLeave(object sender, EventArgs e)
-        {
-            pb_Ganancias.BackColor = Color.FromArgb(36, 97, 142);
-        }
-        #endregion
-
+       
         #region Controles barra top
 
         private void pb_Exit_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (new FrmConfirmacion("SALIR DEL PROGRAMA").ShowDialog() == DialogResult.OK) { Application.Exit(); }
         }
 
         private void pb_Maximizar_Click(object sender, EventArgs e)
@@ -148,29 +68,26 @@ namespace Vista
         }
         #endregion
 
+
+        private void AsignarFondoColorPictureBoxBotonesMenuLateral()
+        {
+            pb_Clientes.BackColor = Configuracion.ColorMenuLateral;
+            pb_Productos.BackColor = Configuracion.ColorMenuLateral;
+            pb_Vender.BackColor = Configuracion.ColorMenuLateral;
+            pb_Envios.BackColor = Configuracion.ColorMenuLateral;
+            pb_Ganancias.BackColor = Configuracion.ColorMenuLateral;
+        }
+
         private void FrmCategoria_Load(object sender, EventArgs e)
         {
-
+            AsignarFondoColorPictureBoxBotonesMenuLateral();
         }
 
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-            if (pnl_MenuLateral.Width == 135)
-                pnl_MenuLateral.Width = 40;
-            else
-                pnl_MenuLateral.Width = 135;
-        }
 
         private void AbrirFormulario(object formHijo)
         {
             if (this.pnl_ContenedorFormularios.Controls.Count > 0)
-                this.pnl_ContenedorFormularios.Controls.RemoveAt(0);
+            {   this.pnl_ContenedorFormularios.Controls.RemoveAt(0);    }
 
             Form fr = formHijo as Form;
             fr.TopLevel = false;
@@ -179,10 +96,125 @@ namespace Vista
             this.pnl_ContenedorFormularios.Tag = fr;
             fr.Show();
         }
+
+        #region Configuracion colores botones Menu Lateral, Principal
+
+        #region Clientes
+        private void btn_MenuClientes_MouseMove(object sender, MouseEventArgs e)
+        {
+            pb_Clientes.BackColor = Configuracion.ColorEncimaBotones;
+            btn_MenuClientes.ForeColor = Configuracion.ColorBlack;
+        }
+
+        private void btn_MenuClientes_MouseLeave(object sender, EventArgs e)
+        {
+            pb_Clientes.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuClientes.ForeColor = Configuracion.ColorWhite;
+        }
+
+        private void btn_MenuClientes_MouseDown(object sender, MouseEventArgs e)
+        {
+            pb_Clientes.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuClientes.ForeColor = Configuracion.ColorWhite;
+        }
+        #endregion
+
+        #region Productos
+
+        private void btn_MenuProductos_MouseMove(object sender, MouseEventArgs e)
+        {
+            pb_Productos.BackColor = Configuracion.ColorEncimaBotones;
+            btn_MenuProductos.ForeColor = Configuracion.ColorBlack;
+        }
+
+        private void btn_MenuProductos_MouseLeave(object sender, EventArgs e)
+        {
+            pb_Productos.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuProductos.ForeColor = Configuracion.ColorWhite;
+        }
+
+        private void btn_MenuProductos_MouseDown(object sender, MouseEventArgs e)
+        {
+            pb_Productos.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuProductos.ForeColor = Configuracion.ColorWhite;
+        }
+        #endregion
+
+        #region Vender
+
+        private void btn_MenuVender_MouseMove(object sender, MouseEventArgs e)
+        {
+            pb_Vender.BackColor = Configuracion.ColorEncimaBotones;
+            btn_MenuVender.ForeColor = Configuracion.ColorBlack;
+        }
+
+        private void btn_MenuVender_MouseLeave(object sender, EventArgs e)
+        {
+            pb_Vender.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuVender.ForeColor = Configuracion.ColorWhite;
+        }
+
+        private void btn_MenuVender_MouseDown(object sender, MouseEventArgs e)
+        {
+            pb_Vender.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuVender.ForeColor = Configuracion.ColorWhite;
+        }
+        #endregion
+
+        #region Envios
+
+        private void btn_MenuEnvios_MouseMove(object sender, MouseEventArgs e)
+        {
+            pb_Envios.BackColor = Configuracion.ColorEncimaBotones;
+            btn_MenuEnvios.ForeColor = Configuracion.ColorBlack;
+        }
+
+        private void btn_MenuEnvios_MouseLeave(object sender, EventArgs e)
+        {
+            pb_Envios.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuEnvios.ForeColor = Configuracion.ColorWhite;
+        }
+
+        private void btn_MenuEnvios_MouseDown(object sender, MouseEventArgs e)
+        {
+            pb_Envios.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuEnvios.ForeColor = Configuracion.ColorWhite;
+        }
+        #endregion
+
+        #region Ganancias
+        private void btn_MenuGanancias_MouseMove(object sender, MouseEventArgs e)
+        {
+            pb_Ganancias.BackColor = Configuracion.ColorEncimaBotones;
+            btn_MenuGanancias.ForeColor = Configuracion.ColorBlack;
+        }
+
+        private void btn_MenuGanancias_MouseLeave(object sender, EventArgs e)
+        {
+            pb_Ganancias.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuGanancias.ForeColor = Configuracion.ColorWhite;
+
+        }
+
+        private void btn_MenuGanancias_MouseDown(object sender, MouseEventArgs e)
+        {
+            pb_Ganancias.BackColor = Configuracion.ColorMenuLateral;
+            btn_MenuGanancias.ForeColor = Configuracion.ColorWhite;
+        }
+        #endregion
+
+        #endregion
+
+        private void btn_MenuClientes_Click(object sender, EventArgs e)
+        {
+            FrmSuccess.ConfirmarMensajeFrmSucces("guardado");
+        }
+
         private void btn_MenuProductos_Click(object sender, EventArgs e)
         {
             AbrirFormulario(new FrmMenuProductos());
         }
+
 
     }
 }

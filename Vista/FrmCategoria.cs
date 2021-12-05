@@ -189,7 +189,8 @@ namespace Vista
                     objEntidad.Descripcion = txt_DescripcionIngresado.Text.ToUpper();
                    
                     objNegocio.InsertarCategoria(objEntidad);
-                    MessageBox.Show("Guardada Categoria.");
+
+                    FrmSuccess.ConfirmarMensajeFrmSucces("GUARDADO");
 
                     MostrarBuscarTabla("");
                     LimpiarCampos();
@@ -209,7 +210,7 @@ namespace Vista
 
                     objNegocio.EditarCategoria(objEntidad);
 
-                    MessageBox.Show("Se editó Categoria.");
+                    FrmSuccess.ConfirmarMensajeFrmSucces("EDITADO");
 
                     MostrarBuscarTabla("");
                     LimpiarCampos();
@@ -229,18 +230,17 @@ namespace Vista
                 if(dgv_TablaCategoria.SelectedRows.Count > 0)
                 {
                     objEntidad.IdCategoria = int.Parse(dgv_TablaCategoria.CurrentRow.Cells[0].Value.ToString());
-                    objNegocio.EliminarCategoria(objEntidad);
+                    
+                    if (new FrmConfirmacion("ELIMINAR CATEGORIA").ShowDialog() == DialogResult.OK){
+                        objNegocio.EliminarCategoria(objEntidad);
+                        FrmSuccess.ConfirmarMensajeFrmSucces("ELIMINADO");
+                        MostrarBuscarTabla("");
+                    }
 
-
-                    MessageBox.Show("Se eliminó Categoria.");
-                    MostrarBuscarTabla("");
-                }
-                else { MessageBox.Show("Seleccione categoria a eliminar."); }
+                } else { MessageBox.Show("Seleccione categoria a eliminar."); }
             }
-            catch(Exception ex)
-            {
+            catch(Exception ex){
                 MessageBox.Show("Error al eliminar Categoria. " + ex.Message);
-
             }
         }
     }

@@ -17,9 +17,9 @@ namespace Vista
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FrmLogin());
-            //Application.Run(new FrmMenuPrincipal());
-            Application.Run(new FrmCategoria());
+           // //Application.Run(new FrmLogin());
+            Application.Run(new FrmMenuPrincipal());
+            //Application.Run(new FrmCategoria());
         }
     }
 }

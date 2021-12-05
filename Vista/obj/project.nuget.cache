@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gLKi4PTDv7Pvn9NJMSQ8Idp5Pyy+n8VQn2TJ9yMwnMo4NxBgUlWoR7H5oulocJvVCkyyLZY5KaA2SU/lGf/HEw==",
+  "dgSpecHash": "EC+TdIsDpvHqYk5u43MGeaB9sy8/SVy6uIMazvDqBe/LC7sbTQO+o4kLPfLWEr1EQ7eJsG/8n3s4Zp7M6TPKKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Vista\\Vista.csproj",
+  "projectFilePath": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Vista\\Vista.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valentin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\valentin\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UAy4siohIx4aA1qPa7DP+jAwnQY23s1G1e6yyLTpqN1qvkctm26vv2oIXfKvAYPaTyDMhi1OzK4A3c/LVjMNRg==",
+  "dgSpecHash": "YrB0BL7YeCjFjqT3GxjmN0Ce5/wFKmis/dGUY/h9r/ehiQM6MCAMAGF4ZXeyXRpDfezhQME3BwL0f01yx8BCtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Negocio\\Negocio.csproj",
+  "projectFilePath": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Negocio\\Negocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valentin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\valentin\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -514,11 +514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Vista\\Vista.csproj",
+      "projectUniqueName": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Vista\\Vista.csproj",
       "projectName": "Vista",
-      "projectPath": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Vista\\Vista.csproj",
+      "projectPath": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Vista\\Vista.csproj",
       "packagesPath": "C:\\Users\\valentin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Vista\\obj\\",
+      "outputPath": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Vista\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\valentin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -535,11 +535,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\valentin\\source\\repos\\BlueCase\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Entidades\\Entidades.csproj"
+            "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Entidades\\Entidades.csproj"
             },
-            "C:\\Users\\valentin\\source\\repos\\BlueCase\\Negocio\\Negocio.csproj": {
-              "projectPath": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Negocio\\Negocio.csproj"
+            "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Negocio\\Negocio.csproj": {
+              "projectPath": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Negocio\\Negocio.csproj"
             }
           }
         }

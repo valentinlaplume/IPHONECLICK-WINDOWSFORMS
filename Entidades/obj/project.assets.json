@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\valentin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\valentin\\AppData\\Roaming\\NuGet\\NuGet.Config",

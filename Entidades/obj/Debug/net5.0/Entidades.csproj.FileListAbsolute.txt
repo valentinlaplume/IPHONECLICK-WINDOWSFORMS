@@ -10,3 +10,15 @@ C:\Users\valentin\source\repos\BlueCase\Entidades\obj\Debug\net5.0\Entidades.csp
 C:\Users\valentin\source\repos\BlueCase\Entidades\obj\Debug\net5.0\Entidades.dll
 C:\Users\valentin\source\repos\BlueCase\Entidades\obj\Debug\net5.0\ref\Entidades.dll
 C:\Users\valentin\source\repos\BlueCase\Entidades\obj\Debug\net5.0\Entidades.pdb
+C:\Users\valentin\source\repos\IphoneClick\Entidades\bin\Debug\net5.0\Entidades.deps.json
+C:\Users\valentin\source\repos\IphoneClick\Entidades\bin\Debug\net5.0\Entidades.dll
+C:\Users\valentin\source\repos\IphoneClick\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+C:\Users\valentin\source\repos\IphoneClick\Entidades\bin\Debug\net5.0\Entidades.pdb
+C:\Users\valentin\source\repos\IphoneClick\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\valentin\source\repos\IphoneClick\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valentin\source\repos\IphoneClick\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\valentin\source\repos\IphoneClick\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+C:\Users\valentin\source\repos\IphoneClick\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\valentin\source\repos\IphoneClick\Entidades\obj\Debug\net5.0\Entidades.dll
+C:\Users\valentin\source\repos\IphoneClick\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+C:\Users\valentin\source\repos\IphoneClick\Entidades\obj\Debug\net5.0\Entidades.pdb

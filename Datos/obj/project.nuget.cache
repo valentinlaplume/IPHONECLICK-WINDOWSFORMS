@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tKMYOt4h6NPSZ70YeNTML8+Pn7eYtT3mgrgjgsFTMgAl42aZddujE6Vov95z8dDOOOq1u9PMVgCEc/U3dMTspg==",
+  "dgSpecHash": "IFnbKdTlEXfoo+b64auJldSU6hvs/43GMBOAzO6pvLJZ8289EXXeRxld+BAityWVauO+JSxhV6ffQqFatKqxHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\valentin\\source\\repos\\BlueCase\\Datos\\Datos.csproj",
+  "projectFilePath": "C:\\Users\\valentin\\source\\repos\\IphoneClick\\Datos\\Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valentin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\valentin\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
