@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Vista
 {
-    public partial class FrmConfirmacion : Form
+    public partial class FrmConfirm : Form
     {
-        public FrmConfirmacion(string mensaje)
+        public FrmConfirm(string mensaje)
         {
             InitializeComponent();
             lbl_Accion.Text = mensaje.ToUpper();

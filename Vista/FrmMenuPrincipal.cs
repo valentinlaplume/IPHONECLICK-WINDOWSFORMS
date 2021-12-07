@@ -31,7 +31,7 @@ namespace Vista
 
         private void pb_Exit_Click_1(object sender, EventArgs e)
         {
-            if (new FrmConfirmacion("SALIR DEL PROGRAMA").ShowDialog() == DialogResult.OK) { Application.Exit(); }
+            if (new FrmConfirm("SALIR DEL PROGRAMA").ShowDialog() == DialogResult.OK) { Application.Exit(); }
         }
 
         private void pb_Maximizar_Click(object sender, EventArgs e)

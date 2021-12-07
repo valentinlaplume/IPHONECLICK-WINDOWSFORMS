@@ -123,6 +123,7 @@ namespace Vista
 
             dgv_TablaProductos.Columns[7].Visible = false; // Oculto Columna id Categoria
             dgv_TablaProductos.Columns[4].Visible = false; // Oculto Columna precio compra
+            dgv_TablaProductos.Columns[9].Visible = false;
 
             dgv_TablaProductos.Columns[0].Width = 60;
             dgv_TablaProductos.Columns[1].Width = 90;
@@ -154,7 +155,7 @@ namespace Vista
             try
             {
                 if (dgv_TablaProductos.Rows[e.RowIndex].Cells["ELIMINAR"].Selected &&
-                    new FrmConfirmacion("ELIMINAR PRODUCTO").ShowDialog() == DialogResult.OK)
+                    new FrmConfirm("ELIMINAR PRODUCTO").ShowDialog() == DialogResult.OK)
                 {
                     objEntidad.IdProducto = Convert.ToInt32(dgv_TablaProductos.Rows[e.RowIndex].Cells[2].Value.ToString());
                     objNegocio.EliminarProducto(objEntidad);
@@ -172,6 +173,12 @@ namespace Vista
             {
                 MessageBox.Show("Error al eliminar Producto. " + ex.Message);
             }
+        }
+
+        private void btn_NuevoProducto_Click(object sender, EventArgs e)
+        {
+            FrmNewEditProducto fr = new FrmNewEditProducto();
+            fr.ShowDialog();
         }
         //if(dgv_TablaProductos.SelectedRows[0].Selected) // EDITAR
         //{

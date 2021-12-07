@@ -15,6 +15,7 @@ namespace Entidades
         int stock;
         int idCategoria;
         string categoria;
+        byte[] imagen;
 
         public E_Producto() { }
 
@@ -34,6 +35,12 @@ namespace Entidades
             this.Categoria = categoria;
         }
 
+        public E_Producto(int idProducto, string nombre, float precio_Compra, float precio_Venta, int stock, int idCategoria, string categoria, byte[] imagen)
+            : this(idProducto, nombre, precio_Compra, precio_Venta, stock, idCategoria, categoria)
+        {
+            Imagen = imagen;
+        }
+
         public int IdProducto { get => idProducto; set => idProducto = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public float Precio_Compra { get => precio_Compra; set => precio_Compra = value; }
@@ -41,5 +48,6 @@ namespace Entidades
         public int Stock { get => stock; set => stock = value; }
         public int IdCategoria { get => idCategoria; set => idCategoria = value; }
         public string Categoria { get => categoria; set => categoria = value; }
+        public byte[] Imagen { get => imagen; set => imagen = value; }
     }
 }

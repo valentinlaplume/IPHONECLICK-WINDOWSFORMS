@@ -143,6 +143,16 @@ namespace Vista.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap error_120px {
+            get {
+                object obj = ResourceManager.GetObject("error_120px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FormularioBorde {
             get {
                 object obj = ResourceManager.GetObject("FormularioBorde", resourceCulture);
@@ -323,6 +333,16 @@ namespace Vista.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_medium_risk_80 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-medium-risk-80", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_menú_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-menú-30", resourceCulture);
@@ -396,6 +416,16 @@ namespace Vista.Properties {
         internal static System.Drawing.Bitmap icons8_restaurar_ventana_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-restaurar-ventana-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagen_articulo_por_defecto {
+            get {
+                object obj = ResourceManager.GetObject("imagen_articulo_por_defecto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

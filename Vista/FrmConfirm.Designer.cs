@@ -1,7 +1,7 @@
 ﻿
 namespace Vista
 {
-    partial class FrmConfirmacion
+    partial class FrmConfirm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Vista
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmConfirmacion));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmConfirm));
             this.btn_Cancelar = new System.Windows.Forms.Button();
             this.lbl_Accion = new System.Windows.Forms.Label();
             this.lbl_Mensaje = new System.Windows.Forms.Label();
@@ -103,10 +103,11 @@ namespace Vista
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Vista.Properties.Resources.Informarcion;
-            this.pictureBox1.Location = new System.Drawing.Point(50, 23);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Vista.Properties.Resources.error_120px;
+            this.pictureBox1.Location = new System.Drawing.Point(109, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(57, 161);
+            this.pictureBox1.Size = new System.Drawing.Size(150, 140);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -115,13 +116,14 @@ namespace Vista
             // lbl_Aviso
             // 
             this.lbl_Aviso.AutoSize = true;
-            this.lbl_Aviso.Font = new System.Drawing.Font("Calibri", 54.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Aviso.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_Aviso.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_Aviso.ForeColor = System.Drawing.Color.White;
-            this.lbl_Aviso.Location = new System.Drawing.Point(113, 94);
+            this.lbl_Aviso.Location = new System.Drawing.Point(36, 142);
             this.lbl_Aviso.Name = "lbl_Aviso";
-            this.lbl_Aviso.Size = new System.Drawing.Size(218, 90);
+            this.lbl_Aviso.Size = new System.Drawing.Size(301, 59);
             this.lbl_Aviso.TabIndex = 1;
-            this.lbl_Aviso.Text = "AVISO";
+            this.lbl_Aviso.Text = "ADVERTENCIA";
             this.lbl_Aviso.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbl_Aviso_MouseDown);
             // 
             // btn_Aceptar
@@ -180,7 +182,7 @@ namespace Vista
             this.panel1.Size = new System.Drawing.Size(1, 359);
             this.panel1.TabIndex = 57;
             // 
-            // FrmConfirmacion
+            // FrmConfirm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -197,7 +199,7 @@ namespace Vista
             this.Controls.Add(this.pnl_Top);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FrmConfirmacion";
+            this.Name = "FrmConfirm";
             this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aviso";

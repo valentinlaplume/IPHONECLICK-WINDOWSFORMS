@@ -231,7 +231,7 @@ namespace Vista
                 {
                     objEntidad.IdCategoria = int.Parse(dgv_TablaCategoria.CurrentRow.Cells[0].Value.ToString());
                     
-                    if (new FrmConfirmacion("ELIMINAR CATEGORIA").ShowDialog() == DialogResult.OK){
+                    if (new FrmConfirm("ELIMINAR CATEGORIA").ShowDialog() == DialogResult.OK){
                         objNegocio.EliminarCategoria(objEntidad);
                         FrmSuccess.ConfirmarMensajeFrmSucces("ELIMINADO");
                         MostrarBuscarTabla("");

@@ -89,9 +89,9 @@ namespace Vista
             this.pnl_Top.Controls.Add(this.pb_Exit);
             this.pnl_Top.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_Top.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(64)))), ((int)(((byte)(94)))));
-            this.pnl_Top.Location = new System.Drawing.Point(3, 0);
+            this.pnl_Top.Location = new System.Drawing.Point(2, 0);
             this.pnl_Top.Name = "pnl_Top";
-            this.pnl_Top.Size = new System.Drawing.Size(797, 35);
+            this.pnl_Top.Size = new System.Drawing.Size(798, 35);
             this.pnl_Top.TabIndex = 2;
             this.pnl_Top.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnl_Top_MouseDown);
             // 
@@ -100,7 +100,7 @@ namespace Vista
             this.pb_Closed.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_Closed.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Closed.Image = global::Vista.Properties.Resources.icons8_cerrar_ventana_30;
-            this.pb_Closed.Location = new System.Drawing.Point(767, 5);
+            this.pb_Closed.Location = new System.Drawing.Point(768, 5);
             this.pb_Closed.Name = "pb_Closed";
             this.pb_Closed.Size = new System.Drawing.Size(25, 25);
             this.pb_Closed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -124,7 +124,7 @@ namespace Vista
             this.pb_Restaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_Restaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Restaurar.Image = global::Vista.Properties.Resources.icons8_restaurar_ventana_30;
-            this.pb_Restaurar.Location = new System.Drawing.Point(1636, 5);
+            this.pb_Restaurar.Location = new System.Drawing.Point(1637, 5);
             this.pb_Restaurar.Name = "pb_Restaurar";
             this.pb_Restaurar.Size = new System.Drawing.Size(25, 25);
             this.pb_Restaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -137,7 +137,7 @@ namespace Vista
             this.pb_Minimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_Minimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Minimizar.Image = global::Vista.Properties.Resources.icons8_minimizar_la_ventana_30;
-            this.pb_Minimizar.Location = new System.Drawing.Point(1605, 5);
+            this.pb_Minimizar.Location = new System.Drawing.Point(1606, 5);
             this.pb_Minimizar.Name = "pb_Minimizar";
             this.pb_Minimizar.Size = new System.Drawing.Size(25, 25);
             this.pb_Minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,7 +149,7 @@ namespace Vista
             this.pb_Maximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_Maximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Maximizar.Image = global::Vista.Properties.Resources.icons8_maximizar_la_ventana_30;
-            this.pb_Maximizar.Location = new System.Drawing.Point(1636, 5);
+            this.pb_Maximizar.Location = new System.Drawing.Point(1637, 5);
             this.pb_Maximizar.Name = "pb_Maximizar";
             this.pb_Maximizar.Size = new System.Drawing.Size(25, 25);
             this.pb_Maximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -161,7 +161,7 @@ namespace Vista
             this.pb_Exit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Exit.Image = global::Vista.Properties.Resources.icons8_cerrar_ventana_30;
-            this.pb_Exit.Location = new System.Drawing.Point(1667, 5);
+            this.pb_Exit.Location = new System.Drawing.Point(1668, 5);
             this.pb_Exit.Name = "pb_Exit";
             this.pb_Exit.Size = new System.Drawing.Size(25, 25);
             this.pb_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -457,25 +457,25 @@ namespace Vista
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(3, 450);
+            this.panel1.Size = new System.Drawing.Size(2, 450);
             this.panel1.TabIndex = 37;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(18)))), ((int)(((byte)(27)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(797, 35);
+            this.panel2.Location = new System.Drawing.Point(798, 35);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(3, 415);
+            this.panel2.Size = new System.Drawing.Size(2, 415);
             this.panel2.TabIndex = 38;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(18)))), ((int)(((byte)(27)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(3, 447);
+            this.panel3.Location = new System.Drawing.Point(2, 448);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(794, 3);
+            this.panel3.Size = new System.Drawing.Size(796, 2);
             this.panel3.TabIndex = 39;
             // 
             // FrmCategoria

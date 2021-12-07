@@ -164,19 +164,22 @@ namespace Vista
             // 
             // pb_LogoChico
             // 
+            this.pb_LogoChico.BackColor = System.Drawing.Color.Transparent;
+            this.pb_LogoChico.Enabled = false;
+            this.pb_LogoChico.Image = global::Vista.Properties.Resources.iphone_click_WHITE;
             this.pb_LogoChico.Location = new System.Drawing.Point(0, 0);
             this.pb_LogoChico.Name = "pb_LogoChico";
-            this.pb_LogoChico.Size = new System.Drawing.Size(135, 48);
-            this.pb_LogoChico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_LogoChico.Size = new System.Drawing.Size(135, 44);
+            this.pb_LogoChico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_LogoChico.TabIndex = 1;
             this.pb_LogoChico.TabStop = false;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(42)))), ((int)(((byte)(62)))));
-            this.panel1.Location = new System.Drawing.Point(-4, 46);
+            this.panel1.Location = new System.Drawing.Point(-2, 41);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(8, 186);
+            this.panel1.Size = new System.Drawing.Size(5, 190);
             this.panel1.TabIndex = 10;
             // 
             // pb_Clientes
@@ -184,7 +187,7 @@ namespace Vista
             this.pb_Clientes.BackColor = System.Drawing.Color.Transparent;
             this.pb_Clientes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pb_Clientes.Image = global::Vista.Properties.Resources.icons8_gestión_de_clientes_80;
-            this.pb_Clientes.Location = new System.Drawing.Point(12, 54);
+            this.pb_Clientes.Location = new System.Drawing.Point(12, 53);
             this.pb_Clientes.Name = "pb_Clientes";
             this.pb_Clientes.Size = new System.Drawing.Size(25, 25);
             this.pb_Clientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -196,7 +199,7 @@ namespace Vista
             this.pb_Ganancias.BackColor = System.Drawing.Color.Transparent;
             this.pb_Ganancias.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pb_Ganancias.Image = global::Vista.Properties.Resources.icons8_bolsa_de_dinero_80;
-            this.pb_Ganancias.Location = new System.Drawing.Point(12, 207);
+            this.pb_Ganancias.Location = new System.Drawing.Point(12, 206);
             this.pb_Ganancias.Name = "pb_Ganancias";
             this.pb_Ganancias.Size = new System.Drawing.Size(25, 25);
             this.pb_Ganancias.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -208,7 +211,7 @@ namespace Vista
             this.pb_Envios.BackColor = System.Drawing.Color.Transparent;
             this.pb_Envios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pb_Envios.Image = global::Vista.Properties.Resources.icons8_entrega_80;
-            this.pb_Envios.Location = new System.Drawing.Point(12, 169);
+            this.pb_Envios.Location = new System.Drawing.Point(12, 168);
             this.pb_Envios.Name = "pb_Envios";
             this.pb_Envios.Size = new System.Drawing.Size(25, 25);
             this.pb_Envios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -220,7 +223,7 @@ namespace Vista
             this.pb_Vender.BackColor = System.Drawing.Color.Transparent;
             this.pb_Vender.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pb_Vender.Image = global::Vista.Properties.Resources.icons8_caja_registradora_80;
-            this.pb_Vender.Location = new System.Drawing.Point(12, 131);
+            this.pb_Vender.Location = new System.Drawing.Point(12, 130);
             this.pb_Vender.Name = "pb_Vender";
             this.pb_Vender.Size = new System.Drawing.Size(25, 25);
             this.pb_Vender.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -232,7 +235,7 @@ namespace Vista
             this.pb_Productos.BackColor = System.Drawing.Color.Transparent;
             this.pb_Productos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pb_Productos.Image = global::Vista.Properties.Resources.icons8_producto_302;
-            this.pb_Productos.Location = new System.Drawing.Point(12, 92);
+            this.pb_Productos.Location = new System.Drawing.Point(12, 91);
             this.pb_Productos.Name = "pb_Productos";
             this.pb_Productos.Size = new System.Drawing.Size(25, 25);
             this.pb_Productos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -250,7 +253,7 @@ namespace Vista
             this.btn_MenuGanancias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuGanancias.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_MenuGanancias.ForeColor = System.Drawing.Color.White;
-            this.btn_MenuGanancias.Location = new System.Drawing.Point(5, 200);
+            this.btn_MenuGanancias.Location = new System.Drawing.Point(5, 199);
             this.btn_MenuGanancias.Name = "btn_MenuGanancias";
             this.btn_MenuGanancias.Size = new System.Drawing.Size(130, 40);
             this.btn_MenuGanancias.TabIndex = 18;
@@ -271,7 +274,7 @@ namespace Vista
             this.btn_MenuEnvios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuEnvios.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_MenuEnvios.ForeColor = System.Drawing.Color.White;
-            this.btn_MenuEnvios.Location = new System.Drawing.Point(5, 162);
+            this.btn_MenuEnvios.Location = new System.Drawing.Point(5, 161);
             this.btn_MenuEnvios.Name = "btn_MenuEnvios";
             this.btn_MenuEnvios.Size = new System.Drawing.Size(130, 40);
             this.btn_MenuEnvios.TabIndex = 15;
@@ -292,7 +295,7 @@ namespace Vista
             this.btn_MenuVender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuVender.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_MenuVender.ForeColor = System.Drawing.Color.White;
-            this.btn_MenuVender.Location = new System.Drawing.Point(5, 124);
+            this.btn_MenuVender.Location = new System.Drawing.Point(5, 123);
             this.btn_MenuVender.Name = "btn_MenuVender";
             this.btn_MenuVender.Size = new System.Drawing.Size(130, 40);
             this.btn_MenuVender.TabIndex = 12;
@@ -313,7 +316,7 @@ namespace Vista
             this.btn_MenuClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuClientes.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_MenuClientes.ForeColor = System.Drawing.Color.White;
-            this.btn_MenuClientes.Location = new System.Drawing.Point(5, 46);
+            this.btn_MenuClientes.Location = new System.Drawing.Point(5, 45);
             this.btn_MenuClientes.Name = "btn_MenuClientes";
             this.btn_MenuClientes.Size = new System.Drawing.Size(130, 40);
             this.btn_MenuClientes.TabIndex = 9;
@@ -360,7 +363,7 @@ namespace Vista
             this.btn_MenuProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuProductos.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_MenuProductos.ForeColor = System.Drawing.Color.White;
-            this.btn_MenuProductos.Location = new System.Drawing.Point(5, 85);
+            this.btn_MenuProductos.Location = new System.Drawing.Point(5, 84);
             this.btn_MenuProductos.Name = "btn_MenuProductos";
             this.btn_MenuProductos.Size = new System.Drawing.Size(130, 40);
             this.btn_MenuProductos.TabIndex = 2;
@@ -388,9 +391,9 @@ namespace Vista
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_LogoBlack.BackColor = System.Drawing.Color.Transparent;
             this.pb_LogoBlack.Image = global::Vista.Properties.Resources.iphone_click_black;
-            this.pb_LogoBlack.Location = new System.Drawing.Point(294, 170);
+            this.pb_LogoBlack.Location = new System.Drawing.Point(294, 146);
             this.pb_LogoBlack.Name = "pb_LogoBlack";
-            this.pb_LogoBlack.Size = new System.Drawing.Size(360, 199);
+            this.pb_LogoBlack.Size = new System.Drawing.Size(360, 223);
             this.pb_LogoBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_LogoBlack.TabIndex = 1;
             this.pb_LogoBlack.TabStop = false;
