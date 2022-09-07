@@ -57,9 +57,10 @@ namespace Vista
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Cancelar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.Color.White;
-            this.btn_Cancelar.Location = new System.Drawing.Point(210, 307);
+            this.btn_Cancelar.Location = new System.Drawing.Point(390, 655);
+            this.btn_Cancelar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_Cancelar.Name = "btn_Cancelar";
-            this.btn_Cancelar.Size = new System.Drawing.Size(126, 39);
+            this.btn_Cancelar.Size = new System.Drawing.Size(234, 83);
             this.btn_Cancelar.TabIndex = 52;
             this.btn_Cancelar.Text = "CANCELAR";
             this.btn_Cancelar.UseVisualStyleBackColor = false;
@@ -70,9 +71,10 @@ namespace Vista
             this.lbl_Accion.AutoSize = true;
             this.lbl_Accion.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Accion.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Accion.Location = new System.Drawing.Point(18, 222);
+            this.lbl_Accion.Location = new System.Drawing.Point(33, 474);
+            this.lbl_Accion.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbl_Accion.Name = "lbl_Accion";
-            this.lbl_Accion.Size = new System.Drawing.Size(93, 26);
+            this.lbl_Accion.Size = new System.Drawing.Size(183, 51);
             this.lbl_Accion.TabIndex = 53;
             this.lbl_Accion.Text = "MENSAJE";
             this.lbl_Accion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -83,9 +85,10 @@ namespace Vista
             this.lbl_Mensaje.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Mensaje.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_Mensaje.ForeColor = System.Drawing.Color.Gray;
-            this.lbl_Mensaje.Location = new System.Drawing.Point(18, 250);
+            this.lbl_Mensaje.Location = new System.Drawing.Point(33, 533);
+            this.lbl_Mensaje.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbl_Mensaje.Name = "lbl_Mensaje";
-            this.lbl_Mensaje.Size = new System.Drawing.Size(230, 38);
+            this.lbl_Mensaje.Size = new System.Drawing.Size(463, 78);
             this.lbl_Mensaje.TabIndex = 51;
             this.lbl_Mensaje.Text = "¿Está seguro de confirmar acción?\r\n Esto puede ser irreversible.\r\n";
             // 
@@ -96,8 +99,9 @@ namespace Vista
             this.pnl_Top.Controls.Add(this.lbl_Aviso);
             this.pnl_Top.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_Top.Location = new System.Drawing.Point(0, 0);
+            this.pnl_Top.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pnl_Top.Name = "pnl_Top";
-            this.pnl_Top.Size = new System.Drawing.Size(364, 209);
+            this.pnl_Top.Size = new System.Drawing.Size(676, 446);
             this.pnl_Top.TabIndex = 54;
             this.pnl_Top.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnl_Top_MouseDown);
             // 
@@ -105,9 +109,10 @@ namespace Vista
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Vista.Properties.Resources.error_120px;
-            this.pictureBox1.Location = new System.Drawing.Point(109, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(200, 26);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 140);
+            this.pictureBox1.Size = new System.Drawing.Size(279, 299);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -119,9 +124,10 @@ namespace Vista
             this.lbl_Aviso.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Aviso.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_Aviso.ForeColor = System.Drawing.Color.White;
-            this.lbl_Aviso.Location = new System.Drawing.Point(36, 142);
+            this.lbl_Aviso.Location = new System.Drawing.Point(45, 303);
+            this.lbl_Aviso.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbl_Aviso.Name = "lbl_Aviso";
-            this.lbl_Aviso.Size = new System.Drawing.Size(301, 59);
+            this.lbl_Aviso.Size = new System.Drawing.Size(603, 117);
             this.lbl_Aviso.TabIndex = 1;
             this.lbl_Aviso.Text = "ADVERTENCIA";
             this.lbl_Aviso.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbl_Aviso_MouseDown);
@@ -136,9 +142,10 @@ namespace Vista
             this.btn_Aceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Aceptar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Aceptar.ForeColor = System.Drawing.Color.White;
-            this.btn_Aceptar.Location = new System.Drawing.Point(27, 307);
+            this.btn_Aceptar.Location = new System.Drawing.Point(50, 655);
+            this.btn_Aceptar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_Aceptar.Name = "btn_Aceptar";
-            this.btn_Aceptar.Size = new System.Drawing.Size(126, 39);
+            this.btn_Aceptar.Size = new System.Drawing.Size(234, 83);
             this.btn_Aceptar.TabIndex = 55;
             this.btn_Aceptar.Text = "ACEPTAR";
             this.btn_Aceptar.UseVisualStyleBackColor = false;
@@ -153,41 +160,45 @@ namespace Vista
             // 
             this.panel4.BackColor = System.Drawing.Color.Black;
             this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(364, 1);
+            this.panel4.Size = new System.Drawing.Size(676, 2);
             this.panel4.TabIndex = 56;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 357);
+            this.panel3.Location = new System.Drawing.Point(0, 762);
+            this.panel3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(364, 1);
+            this.panel3.Size = new System.Drawing.Size(676, 2);
             this.panel3.TabIndex = 59;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(363, 0);
+            this.panel2.Location = new System.Drawing.Point(674, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1, 359);
+            this.panel2.Size = new System.Drawing.Size(2, 766);
             this.panel2.TabIndex = 58;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1, 359);
+            this.panel1.Size = new System.Drawing.Size(2, 766);
             this.panel1.TabIndex = 57;
             // 
             // FrmConfirm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(364, 358);
+            this.ClientSize = new System.Drawing.Size(676, 764);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -199,6 +210,7 @@ namespace Vista
             this.Controls.Add(this.pnl_Top);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "FrmConfirm";
             this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

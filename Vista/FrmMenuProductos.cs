@@ -29,7 +29,7 @@ namespace Vista
         }
 
         #region Configuracion de colores abm
-
+        /*
         private void btn_NuevoProducto_MouseMove(object sender, MouseEventArgs e)
         {
             pb_Mas.BackColor = Color.FromArgb(139, 183, 240);
@@ -101,6 +101,7 @@ namespace Vista
             pb_Guardar.BackColor = Color.PaleGreen;
             btn_Guardar.ForeColor = Color.Black;
         }
+        */
         #endregion
 
         private void btn_AbrirCategorias_Click(object sender, EventArgs e)
@@ -123,7 +124,6 @@ namespace Vista
 
             dgv_TablaProductos.Columns[7].Visible = false; // Oculto Columna id Categoria
             dgv_TablaProductos.Columns[4].Visible = false; // Oculto Columna precio compra
-            dgv_TablaProductos.Columns[9].Visible = false;
 
             dgv_TablaProductos.Columns[0].Width = 60;
             dgv_TablaProductos.Columns[1].Width = 90;
@@ -162,11 +162,14 @@ namespace Vista
                     FrmSuccess.ConfirmarMensajeFrmSucces("ELIMINADO");
                     MostrarBuscarTabla("");
                 }
-
-                //if (dgv_TablaProductos.Rows[e.RowIndex].Cells["EDITAR"].Selected)
-                //{
-
-                //}
+                else if (dgv_TablaProductos.Rows[e.RowIndex].Cells["EDITAR"].Selected)
+                {
+                    objEntidad.IdProducto = Convert.ToInt32(dgv_TablaProductos.Rows[e.RowIndex].Cells[1].Value.ToString());
+                    //objNegocio.
+                    //MessageBox.Show("EDITAR SELECCIONE");
+                    FrmSuccess.ConfirmarMensajeFrmSucces("PRODUCTO MODIFICADO");
+                    MostrarBuscarTabla("");
+                }
 
             }
             catch (Exception ex)

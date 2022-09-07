@@ -56,9 +56,10 @@ namespace Vista
             this.lbl_Mensaje.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Mensaje.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_Mensaje.ForeColor = System.Drawing.Color.Gray;
-            this.lbl_Mensaje.Location = new System.Drawing.Point(18, 250);
+            this.lbl_Mensaje.Location = new System.Drawing.Point(33, 533);
+            this.lbl_Mensaje.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbl_Mensaje.Name = "lbl_Mensaje";
-            this.lbl_Mensaje.Size = new System.Drawing.Size(328, 38);
+            this.lbl_Mensaje.Size = new System.Drawing.Size(646, 78);
             this.lbl_Mensaje.TabIndex = 1;
             this.lbl_Mensaje.Text = "Accion realizada con éxito, haga click en aceptar \r\npara seguir con el flujo del " +
     "programa.";
@@ -73,9 +74,10 @@ namespace Vista
             this.btn_Aceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Aceptar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Aceptar.ForeColor = System.Drawing.Color.White;
-            this.btn_Aceptar.Location = new System.Drawing.Point(121, 307);
+            this.btn_Aceptar.Location = new System.Drawing.Point(225, 655);
+            this.btn_Aceptar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_Aceptar.Name = "btn_Aceptar";
-            this.btn_Aceptar.Size = new System.Drawing.Size(126, 39);
+            this.btn_Aceptar.Size = new System.Drawing.Size(234, 83);
             this.btn_Aceptar.TabIndex = 47;
             this.btn_Aceptar.Text = "ACEPTAR";
             this.btn_Aceptar.UseVisualStyleBackColor = false;
@@ -86,9 +88,10 @@ namespace Vista
             this.lbl_Accion.AutoSize = true;
             this.lbl_Accion.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Accion.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Accion.Location = new System.Drawing.Point(18, 222);
+            this.lbl_Accion.Location = new System.Drawing.Point(33, 474);
+            this.lbl_Accion.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbl_Accion.Name = "lbl_Accion";
-            this.lbl_Accion.Size = new System.Drawing.Size(113, 26);
+            this.lbl_Accion.Size = new System.Drawing.Size(225, 51);
             this.lbl_Accion.TabIndex = 49;
             this.lbl_Accion.Text = "GUARDADO";
             this.lbl_Accion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -99,8 +102,9 @@ namespace Vista
             this.pnl_Top.Controls.Add(this.panel4);
             this.pnl_Top.Controls.Add(this.pictureBox1);
             this.pnl_Top.Location = new System.Drawing.Point(0, 0);
+            this.pnl_Top.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pnl_Top.Name = "pnl_Top";
-            this.pnl_Top.Size = new System.Drawing.Size(364, 209);
+            this.pnl_Top.Size = new System.Drawing.Size(676, 446);
             this.pnl_Top.TabIndex = 50;
             this.pnl_Top.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnl_Top_MouseDown);
             // 
@@ -109,16 +113,18 @@ namespace Vista
             this.panel4.BackColor = System.Drawing.Color.Black;
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(364, 2);
+            this.panel4.Size = new System.Drawing.Size(676, 1);
             this.panel4.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Vista.Properties.Resources.Check;
-            this.pictureBox1.Location = new System.Drawing.Point(85, 7);
+            this.pictureBox1.Location = new System.Drawing.Point(158, 24);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 197);
+            this.pictureBox1.Size = new System.Drawing.Size(357, 399);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -128,33 +134,36 @@ namespace Vista
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2, 359);
+            this.panel1.Size = new System.Drawing.Size(1, 766);
             this.panel1.TabIndex = 51;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(362, 0);
+            this.panel2.Location = new System.Drawing.Point(675, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2, 359);
+            this.panel2.Size = new System.Drawing.Size(1, 766);
             this.panel2.TabIndex = 52;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 356);
+            this.panel3.Location = new System.Drawing.Point(0, 763);
+            this.panel3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(364, 2);
+            this.panel3.Size = new System.Drawing.Size(676, 1);
             this.panel3.TabIndex = 53;
             // 
             // FrmSuccess
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(364, 358);
+            this.ClientSize = new System.Drawing.Size(676, 764);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -164,6 +173,7 @@ namespace Vista
             this.Controls.Add(this.pnl_Top);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "FrmSuccess";
             this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -18,6 +18,7 @@ namespace Vista
             InitializeComponent();
         }
 
+        #region CONFIG BARRA TOP
         private void pb_Exit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -33,5 +34,36 @@ namespace Vista
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+        #endregion
+
+        private void btn_Guardar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!IsValidCamposIngresados()) { throw new Exception(); }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                FrmError fr = new FrmError("GUARDAR PRODUCTO");
+                fr.ShowDialog();
+            }
+        }
+
+        private bool IsValidCamposIngresados()
+        {
+            if (  !string.IsNullOrEmpty(txt_NombreIngresado.Text)
+               && !string.IsNullOrEmpty(txt_StockIngresado.Text)
+               && !string.IsNullOrEmpty(txt_PrecioVentaIngresado.Text)
+               && !string.IsNullOrEmpty(txt_PrecioCompraIngresado.Text))
+            {
+                return true;
+            }
+            return false;
+        }
+
+
     }
 }

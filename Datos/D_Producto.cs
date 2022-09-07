@@ -139,6 +139,10 @@ namespace Datos
 
                 Comando.Parameters.AddWithValue("@IDPRODUCTO", obj.IdProducto);
                 Comando.Parameters.AddWithValue("@NOMBRE", obj.Nombre);
+                Comando.Parameters.AddWithValue("@PRECIO_COMPRA", obj.Precio_Compra);
+                Comando.Parameters.AddWithValue("@PRECIO_VENTA", obj.Precio_Venta);
+                Comando.Parameters.AddWithValue("@STOCK", obj.Stock); 
+                Comando.Parameters.AddWithValue("@IDCATEGORIA", obj.IdCategoria);
 
                 Comando.ExecuteNonQuery();
             }

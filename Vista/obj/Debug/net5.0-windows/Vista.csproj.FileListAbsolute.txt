@@ -56,9 +56,12 @@ C:\Users\valentin\source\repos\IphoneClick\Vista\bin\Debug\net5.0-windows\Negoci
 C:\Users\valentin\source\repos\IphoneClick\Vista\bin\Debug\net5.0-windows\Datos.pdb
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.csproj.AssemblyReference.cache
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmCategoria.resources
+C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmConfirm.resources
+C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmError.resources
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmLogin.resources
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmMenuPrincipal.resources
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmMenuProductos.resources
+C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmNewEditProducto.resources
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmSuccess.resources
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.Properties.Resources.resources
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.csproj.GenerateResource.cache
@@ -71,5 +74,3 @@ C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\ref\Vista.dll
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.pdb
 C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.genruntimeconfig.cache
-C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmConfirm.resources
-C:\Users\valentin\source\repos\IphoneClick\Vista\obj\Debug\net5.0-windows\Vista.FrmNewEditProducto.resources

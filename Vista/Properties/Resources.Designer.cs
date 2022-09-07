@@ -163,6 +163,16 @@ namespace Vista.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap high_priority_120px {
+            get {
+                object obj = ResourceManager.GetObject("high_priority_120px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_apagar_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-apagar-30", resourceCulture);

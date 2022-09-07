@@ -28,5 +28,11 @@ namespace Negocio
             if (obj == null) { obj = new D_Producto(); }
             obj.EliminarProducto(objEliminar);
         }
+
+        public void EditarProducto(E_Producto objEliminar)
+        {
+            if (obj == null) { obj = new D_Producto(); }
+            obj.EditarProducto(objEliminar);
+        }
     }
 }
